@@ -17,23 +17,23 @@ int main()
   scanf("%d", &e);
 
   max = a;
-  if (b > max) {
-    max = b;}
+  if (b > max) 
+    max = b;
   else 
     min=b;
   
-  if (c > max) {
-    max = c;}
+  if (c > max) 
+    max = c;
   else 
     min=c;
   
-  if (d > max) {
-    max = d;}
+  if (d > max) 
+    max = d;
   else 
     min=d;
   
-  if (e > max) {
-    max = e; }
+  if (e > max) 
+    max = e; 
   else 
     min=e;
  
