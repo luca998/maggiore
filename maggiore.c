@@ -19,23 +19,28 @@ int main()
   max = a;
   if (b > max) 
     max = b;
-  else 
-    min=b;
-  
+ 
   if (c > max) 
     max = c;
-  else 
-    min=c;
-  
+ 
   if (d > max) 
     max = d;
-  else 
-    min=d;
-  
+ 
   if (e > max) 
     max = e; 
-  else 
-    min=e;
+ 
+ if (b < max) 
+    min = b;
+ 
+  if (c < max) 
+    min = c;
+ 
+  if (d < max) 
+    min = d;
+ 
+  if (e < max) 
+    min = e; 
+  
  
   
   printf("Il numero maggiore e': %d\n", max);
