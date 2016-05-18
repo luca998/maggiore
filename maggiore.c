@@ -30,16 +30,16 @@ int main()
     max = e; 
  
   min=a;
-  if (b < max) 
+  if (b < min) 
     min = b;
  
-  if (c < max) 
+  if (c < min) 
     min = c;
  
-  if (d < max) 
+  if (d < min) 
     min = d;
  
-  if (e < max) 
+  if (e < min) 
     min = e; 
   
  
