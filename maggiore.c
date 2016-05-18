@@ -29,6 +29,7 @@ int main()
   if (e > max) 
     max = e; 
  
+ min=a;
  if (b < max) 
     min = b;
  
